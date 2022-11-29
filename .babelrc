@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "extensions": ['.ts', '.tsx', '.json'],
+      "alias": {
+        '@hooks': './src/hooks',
+        '@screens': './src/screens',
+        '@components': './src/components',
+        '@styles': './src/styles',
+        '@routes': './src/routes',
+        '@models': './src/models',
+        '@utils': './src/utils/index.ts'
+      }
+    }]
+  ]
+}
